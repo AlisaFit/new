@@ -1,0 +1,336 @@
+body {
+    padding:0;
+    margin:0;
+    font: 14px;
+    line-height:21px;
+    font-family: "Roboto", "Playfair Display", sans-serif;
+    width: 1440px;
+    height: 2047px;
+    background: #FFFFFF;
+   color: #000000;
+   min-width:1440px;
+}
+
+
+
+.header-top h1 {
+font-family: Playfair Display;
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 47px;
+letter-spacing: 1px;
+text-align: center;
+margin-top:60px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    list-style: none;
+    text-transform: uppercase;
+    margin:0;
+    padding:0;
+    margin-bottom:47px;
+    margin-top:46px;
+  
+}
+
+.main-nav li:first-child {
+    margin-left:132px;
+}
+
+.main-nav li:last-child {
+    margin-right:134px;
+}
+
+.main-nav a {
+text-decoration: none;
+}
+
+.header-top .main-nav a {
+color:#000000;
+}
+
+.footer-top .main-nav a {
+    color:#FFFFFF;
+    }
+
+.page-footer {
+    background-color: #575757; 
+}
+
+  .promo {  
+   min-height: 464px;
+   
+ background-image: url("../img/Mask Group.png");
+ background-repeat:no-repeat;
+ background-position:center;
+ background-size: cover;
+ color:white;
+   }
+
+.promo h1 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top:32px;
+}
+
+   .promo p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;    
+    text-align: center;
+    margin:0;
+    margin-top:139px;
+    margin-bottom:48px;
+   }
+
+   .promo img {
+    padding:0;
+    margin:0;
+    margin-left: 693px;
+    margin-top:46px;
+   width: 55px;
+   height: 55px;
+   }
+ 
+ 
+   .reviews {
+       height:463px;
+   }
+
+   .reviews h2   {
+    font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+letter-spacing: 2px;
+text-align: center;
+margin:0;
+
+margin-top:44px;
+text-transform: uppercase;
+margin-bottom:20px;
+   }
+
+   .reviews-list  {
+       display: flex;
+       justify-content: center;
+       
+   }
+
+   .review-section b {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+   }
+
+   .review-section img {
+   margin-bottom:20px;
+   width:370px;
+   height:203px;
+   }
+
+   .review-section {
+       margin-left: 29px;
+   }
+
+   .review-section p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%; 
+    margin-top:11px;
+   }
+
+   .review-section .orange {
+color:#FF7931;
+   }
+
+   .subscription-theatre h2   {
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 17px;
+line-height: 20px;
+letter-spacing: 2px;
+text-align: center;
+margin:0;
+padding:0;
+text-transform: uppercase;
+padding-top:33px;
+padding-bottom:15px;
+
+
+   }
+
+.subscription-theatre::before {
+    position: absolute;
+    content: "";
+    width: 100px; 
+height: 100px;
+background: #83A7C9;
+border-radius: 50%;
+}
+
+   .subscription-theatre {
+       position: relative;
+       display:flex;
+       flex-direction: column;
+       align-items:center;
+       text-align: center;
+       height:556px;
+       background: #F7F7F7;
+       mix-blend-mode: normal;
+       border-bottom:35px solid #FFFFFF;
+      z-index: 1;
+   }
+
+   .subscription-theatre::before {
+    position: absolute;
+    content: "";
+    width: 707px; 
+height: 707px;
+background: #ffffff;
+border-radius: 50%;
+
+left:366px;
+top:-70px;
+
+}
+
+   .subscription-theatre h3 {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    margin-bottom: 10px;
+ 
+    color: black;
+   }
+
+   .subscription-theatre p {
+   font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+
+}
+
+.subscription-theatre img {
+width: 170px;
+height:47px;
+margin-top:25px;
+margin-bottom:36px;
+
+}
+
+.subscription-theatre::before {
+    position: absolute;
+    content: "";
+    width: 707px; 
+height: 707px;
+background: #ffffff;
+border-radius: 50%;
+z-index: -1;
+left:366px;
+top:-70px;
+}
+
+.subscription-discount::after {
+    content: "";
+    position: absolute;
+border-bottom:1px solid rgba(0, 0, 0, 0.2);
+width:100px;
+left:670px;
+top:192px;
+}
+
+.subscription-stage::after {
+    content: "";
+    position: absolute;
+border-bottom:1px solid rgba(0, 0, 0, 0.2);
+width:100px;
+left:670px;
+top:320px;
+
+}
+
+.page-footer {
+    position: relative;
+height: 295px;
+z-index: 1;
+}
+
+.footer-top .main-nav {
+    margin-top:32px;
+}
+
+.footer-top h1 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;    
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top:26px;
+}
+
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+   padding-top:40px;
+}
+
+.footer-top .main-nav::before {
+content: "";
+position: absolute;
+border: 1px solid #FFFFFF;
+
+width:1170px;
+left:135px;
+bottom:135px;
+opacity: 0.1;
+}
+
+.footer-bottom .footer-social .btn {
+border:1px solid #FFFFFF;
+display: inline-block;
+vertical-align: middle;
+width: 47px;
+height: 47px;
+margin-right: 14px;
+background-color: #FFFfFF;
+}
+
+.footer-bottom .footer-social .social-btn-ins img {
+margin:12px 11px 12px 12px;
+}
+
+.footer-bottom .footer-social .social-btn-fb img {
+    margin:13px 12px 13px 17px;
+    }
+
+    .footer-bottom .footer-social .social-btn-tw img {
+        margin:15px 14px 13px 12px;
+        }
